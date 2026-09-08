@@ -1,0 +1,86 @@
+Act as a Senior Creative Frontend & Motion Graphics Developer. I want you to build an Ultra-High-End, Interactive, and Responsive Portfolio Website for me using React, Next.js, Tailwind CSS, Three.js (or React Three Fiber for 3D elements), and Framer Motion for modern fluid animations. 
+
+This website will be hosted on Vercel and pushed via GitHub, so ensure the code is production-ready, clean, modular, and optimized for low latency.
+
+---
+
+### 1. CORE DIRECTIVE & RESUME INTEGRATION:
+Strictly extract and feature ALL information from my attached Resume/CV. Maintain my core Software Engineering & ML identity while seamlessly integrating my Advanced Post-Production & Motion Graphics capabilities.
+
+- Name: Abdullah Al Noman
+- Roles: AI/ML Developer & Motion Graphics / Video Editing Specialist
+- Tech Stack to Include from CV:
+  * ML & Tools: Python, C, TensorFlow, PyTorch, OpenCV, Scikit-learn, Matplotlib, Seaborn, SQL, Git, Kaggle.
+  * Web & Mobile: Flutter, HTML, CSS, JavaScript, PHP.
+  * Motion & Video: Adobe After Effects, Adobe Premiere Pro, Dynamic Link Workflow, Multi-Pass Visual Compositing, Expressions (ExtendScript), Motion Tracking, Color Grading.
+  * Education: B.Sc. in Computer Science and Engineering - Daffodil International University.
+  * CV Projects to Include:
+    1. SONAR-Based Underwater Object Classification System (Python, Flask, XGBoost, SHAP)
+    2. ResearchHub - Student-Teacher Collaboration App (Flutter, Firebase, ML)
+    3. Sales Representative Management System (PHP, MySQL, MVC)
+  * Certifications & Awards: NASA International Space Apps Winner (Rajshahi Div), DIU Accelerator Cup, Datathon 2024, etc.
+
+---
+
+### 2. AESTHETICS, CURSOR & ULTRA ANIMATIONS:
+- Design Style: Dark-mode aesthetic with cyber-minimalist tones (Deep Obsidian Background, Glassmorphism, Neon/Electric Blue & Magenta Accents).
+- Interactive Custom Cursor: Implement a fluid custom mouse cursor (using Framer Motion or GSAP) with trailing particle physics or smooth magnetic hover effects when hovering over buttons, cards, and links.
+- 3D/Reactive Background: Integrate a subtle Three.js reactive background (e.g., interactive particle mesh, floating glowing nodes, or fluid visual distortion responding to mouse movements).
+- Smooth Scrolling & Transitions: Use Lenis or Framer Motion for ultra-smooth inertia scrolling, staggered page entries, line-drawing SVG animations, and scroll-triggered section reveals.
+
+---
+
+### 3. SECTION STRUCTURE:
+
+1. HERO SECTION:
+   - Dynamic 3D/Typography greeting: "Abdullah Al Noman"
+   - Interactive Role Ticker: AI/ML Engineer | Motion Graphics Specialist | Visual Storyteller
+   - Call to Action: "Explore Works", "Watch Reel", and "Get in Touch" buttons with magnetic animation.
+
+2. SKILLS MATRIX (Interactive Tabs):
+   - Categorize into 3 interactive tabbed grids with visual proficiency indicators:
+     a) Artificial Intelligence & Machine Learning
+     b) Motion Design & Post-Production (Premiere Pro & After Effects Workflows)
+     c) Web & Mobile Engineering
+
+3. MOTION GRAPHICS & VIDEO SHOWCASE (Embedded Video Grid):
+   Responsive Showcase Grid:
+
+Build a responsive 2-column or 3-column video portfolio grid.
+
+Use dynamic embedded <iframe> video containers featuring full video player controls, custom thumbnail posters, YouTube/Vimeo modal support, and hover-to-play preview states.
+
+Vertical Reels & Shorts Layout (9:16 Aspect Ratio):
+
+Build a responsive grid specifically optimized for vertical content (Instagram Reels / YouTube Shorts / TikTok).
+
+Ensure video containers use a CSS aspect ratio of aspect-[9/16] to fit seamlessly across mobile and desktop screens without letterboxing, distortion, or black bars.
+
+Incorporate dynamic embedded <iframe> containers enhanced with hover-to-play effects, shadow depth, and rounded glassmorphic frames.
+
+Embed Links Placeholder:
+
+Video 1 Embed Link: "[https://www.youtube.com/embed/YOUR_VIDEO_ID_1](https://www.youtube.com/embed/YOUR_VIDEO_ID_1)"
+
+Video 2 Embed Link: "[https://www.youtube.com/embed/YOUR_VIDEO_ID_2](https://www.youtube.com/embed/YOUR_VIDEO_ID_2)"
+
+Video 3 Embed Link: "[https://www.youtube.com/embed/YOUR_VIDEO_ID_3](https://www.youtube.com/embed/YOUR_VIDEO_ID_3)"
+
+4. SOFTWARE ENGINEERING & ML PROJECTS:
+   - Interactive glassmorphic cards for CV projects (SONAR Classification, ResearchHub, Sales Mgmt).
+   - Display GitHub links, tech tags, metrics (e.g., "97.85% Accuracy"), and architecture popups.
+
+5. ACADEMIC, CERTIFICATIONS & AWARDS:
+   - Timeline layout for Education (DIU), NASA Space Apps Challenge, Datathon, and Hackathons.
+
+6. CONTACT & FOOTER:
+   - Interactive contact form with input floating effects.
+   - Social links with glow-on-hover: LinkedIn, GitHub, Email, Portfolio.
+
+---
+
+### 4. TECHNICAL & RESPONSIVENESS REQUIREMENTS:
+- 100% Fully Responsive across Desktop, Ultra-Wide, Tablet, and Mobile screens.
+- Zero horizontal overflow. 
+- Fast loading times with proper lazy-loading for video embeds and images.
+- Structure code into standard Next.js (App Router) component-based architecture for seamless deployment on Vercel.
